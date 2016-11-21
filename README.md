@@ -2,6 +2,7 @@ Markdown library for Enonic XP
 ==============================
 
 [![Build Status](https://travis-ci.org/enonic/lib-markdown.svg?branch=master)](https://travis-ci.org/enonic/lib-markdown)
+[![codecov](https://codecov.io/gh/enonic/lib-markdown/branch/master/graph/badge.svg)](https://codecov.io/gh/enonic/lib-markdown)
 [![License](https://img.shields.io/github/license/enonic/lib-markdown.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 This is a library for rendering markdown in Enonic XP. It exposes a single function `render` that renders markdown to html. The library
