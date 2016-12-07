@@ -1,3 +1,5 @@
+<img align="right" src="https://raw.githubusercontent.com/enonic/lib-markdown/master/misc/logo.svg">
+
 Markdown library for Enonic XP
 ==============================
 
