@@ -14,6 +14,7 @@ Compatibility
 | Version | XP Version   | Dependency                        |
 |---------|--------------|-----------------------------------|
 | 0.5.0   | 6.7.x, 6.8.x | com.enonic.lib:lib-markdown:0.5.0 |
+| 1.0.0   | 7.0.0 | com.enonic.lib:lib-markdown:1.0.0 |
 
 Usage
 -----

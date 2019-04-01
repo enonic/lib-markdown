@@ -1,6 +1,6 @@
-var assert = require('/lib/xp/assert.js');
+var assert = require('/lib/xp/testing.js');
 var markdown = require('/lib/markdown.js');
-var thymeleaf = require('/lib/xp/thymeleaf.js');
+var thymeleaf = require('/lib/thymeleaf');
 
 function assertHtmlEquals(res, actual) {
     testInstance.assertHtmlEquals(resolve(res), actual);
