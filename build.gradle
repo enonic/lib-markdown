@@ -6,7 +6,9 @@ plugins {
 
 repositories {
     jcenter()
-    xp.enonicRepo()
+    maven {
+        url 'http://repo.enonic.com/public'
+    }
 }
 
 dependencies {
