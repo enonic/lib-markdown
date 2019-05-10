@@ -6,23 +6,16 @@ plugins {
     id 'com.enonic.xp.base' version '2.0.0'
 }
 
-repositories {
-    jcenter()
-    xp.enonicRepo()
-}
-
-group = 'com.enonic.lib'
-version = '1.0.0-SNAPSHOT'
-
-jar {
-    baseName = 'lib-markdown'
-}
-
 dependencies {
     compile "com.enonic.xp:script-api:${xpVersion}"
     compile 'com.atlassian.commonmark:commonmark:0.7.1'
     testCompile "com.enonic.xp:testing:${xpVersion}"
-    testCompile "com.enonic.lib:lib-thymeleaf:2.0.0-B2"
+    testCompile "com.enonic.lib:lib-thymeleaf:2.0.0-RC1"
+}
+
+repositories {
+    jcenter()
+    xp.enonicRepo()
 }
 
 jacocoTestReport {
