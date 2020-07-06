@@ -1,7 +1,7 @@
 Markdown library for Enonic XP
 ==============================
 
-[![Build Status](https://travis-ci.org/enonic/lib-markdown.svg?branch=master)](https://travis-ci.org/enonic/lib-markdown)
+[![Actions Status](https://github.com/enonic/lib-markdown/workflows/Gradle%20Build/badge.svg)](https://github.com/enonic/lib-markdown/actions)
 [![codecov](https://codecov.io/gh/enonic/lib-markdown/branch/master/graph/badge.svg)](https://codecov.io/gh/enonic/lib-markdown)
 [![License](https://img.shields.io/github/license/enonic/lib-markdown.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
