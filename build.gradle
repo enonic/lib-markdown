@@ -7,7 +7,7 @@ plugins {
 }
 
 dependencies {
-    compile 'com.atlassian.commonmark:commonmark:0.17.0'
+    compile 'com.commonmark:commonmark:0.17.1'
     testCompile "com.enonic.xp:testing:${xpVersion}"
     testCompile "com.enonic.lib:lib-thymeleaf:2.0.0"
 }
@@ -25,4 +25,3 @@ jacocoTestReport {
 }
 
 check.dependsOn jacocoTestReport
-
