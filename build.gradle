@@ -7,7 +7,7 @@ plugins {
 }
 
 dependencies {
-    compile 'org.commonmark:commonmark:0.18.1'
+    compile 'org.commonmark:commonmark:0.18.2'
     testCompile "com.enonic.xp:testing:${xpVersion}"
     testCompile "com.enonic.lib:lib-thymeleaf:2.0.0"
 }
