@@ -7,9 +7,9 @@ plugins {
 }
 
 dependencies {
-    compile 'org.commonmark:commonmark:0.21.0'
-    testCompile "com.enonic.xp:testing:${xpVersion}"
-    testCompile "com.enonic.lib:lib-thymeleaf:2.0.2"
+    implementation 'org.commonmark:commonmark:0.21.0'
+    testImplementation "com.enonic.xp:testing:${xpVersion}"
+    testImplementation "com.enonic.lib:lib-thymeleaf:2.0.2"
 }
 
 repositories {
@@ -19,8 +19,8 @@ repositories {
 
 jacocoTestReport {
     reports {
-        xml.enabled = true
-        html.enabled = true
+        xml.required = true
+        html.required = true
     }
 }
 
