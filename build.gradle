@@ -7,7 +7,7 @@ plugins {
 }
 
 dependencies {
-    implementation 'org.commonmark:commonmark:0.23.0'
+    implementation 'org.commonmark:commonmark:0.24.0'
     testImplementation "com.enonic.xp:testing:${xpVersion}"
     testImplementation "com.enonic.lib:lib-thymeleaf:2.1.1"
 }
