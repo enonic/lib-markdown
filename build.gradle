@@ -3,18 +3,27 @@ plugins {
     id 'jacoco'
     id 'maven-publish'
     id 'com.enonic.defaults' version '2.1.6'
-    id 'com.enonic.xp.base' version '3.6.2'
-}
-
-dependencies {
-    implementation 'org.commonmark:commonmark:0.28.0'
-    testImplementation "com.enonic.xp:testing:${xpVersion}"
-    testImplementation "com.enonic.lib:lib-thymeleaf:2.1.1"
+    id 'com.enonic.xp.base'
 }
 
 repositories {
     mavenCentral()
     xp.enonicRepo()
+}
+
+dependencies {
+    compileOnly xplibs.api.script
+
+    implementation 'org.commonmark:commonmark:0.28.0'
+
+    testImplementation "com.enonic.xp:testing:${xpVersion}"
+    testImplementation platform( 'org.junit:junit-bom:5.13.4' )
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+    useJUnitPlatform()
 }
 
 jacocoTestReport {
