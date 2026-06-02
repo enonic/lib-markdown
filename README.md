@@ -11,9 +11,10 @@ uses [CommonMark-Java](https://github.com/atlassian/commonmark-java) for the act
 Compatibility
 -------------
 
-| Version | XP Version   | Dependency                        |
+| Version |  XP Version  |  Dependency                       |
 |---------|--------------|-----------------------------------|
-| 1.0.0   | 7.0.0 | com.enonic.lib:lib-markdown:1.0.0 |
+| 2.0.0   | 8.0.0        | com.enonic.lib:lib-markdown:2.0.0 |
+| 1.0.0   | 7.0.0        | com.enonic.lib:lib-markdown:1.0.0 |
 | 0.5.0   | 6.7.x, 6.8.x | com.enonic.lib:lib-markdown:0.5.0 |
 
 Usage
