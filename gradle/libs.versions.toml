@@ -1,5 +1,5 @@
 [versions]
-commonmark = "0.28.0"
+commonmark = "0.29.0"
 junit-bom = "6.1.0"
 
 [libraries]
