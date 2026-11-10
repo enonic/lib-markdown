@@ -18,7 +18,6 @@ jobs:
           repoUser: ci
           repoPassword: ${{ secrets.ARTIFACTORY_PASSWORD }}
           npmPublish: true
-          publishTask: build
           releaseBranch: |
             master
             1.x
